@@ -1,0 +1,85 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Workshop: [Title]</title>
+  <style>
+    body { font-family: system-ui, -apple-system, Segoe UI, Roboto, Arial, sans-serif; margin: 0; line-height: 1.5; }
+    header { position: sticky; top: 0; background: white; border-bottom: 1px solid #eee; }
+    nav { max-width: 980px; margin: 0 auto; padding: 14px 18px; display: flex; gap: 14px; flex-wrap: wrap; }
+    nav a { text-decoration: none; color: #111; padding: 6px 10px; border-radius: 10px; }
+    nav a:hover { background: #f2f2f2; }
+    main { max-width: 980px; margin: 0 auto; padding: 26px 18px 60px; }
+    .hero { padding: 22px 0 8px; }
+    .grid { display: grid; grid-template-columns: 1.3fr 1fr; gap: 18px; }
+    .card { border: 1px solid #eee; border-radius: 16px; padding: 16px; background: #fff; }
+    h1 { margin: 0 0 8px; font-size: 34px; }
+    h2 { margin: 22px 0 10px; font-size: 20px; }
+    ul { margin: 10px 0 0; padding-left: 18px; }
+    @media (max-width: 820px){ .grid{ grid-template-columns: 1fr; } }
+  </style>
+</head>
+<body>
+  <header>
+    <nav>
+      <a href="#about">About</a>
+      <a href="#cfp">Call</a>
+      <a href="#program">Program</a>
+      <a href="#registration">Registration</a>
+      <a href="#travel">Practical info</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero" id="top">
+      <h1>[Workshop Title]</h1>
+      <p><strong>[City]</strong> · [Dates] · (co-located with …)</p>
+    </section>
+
+    <section class="grid">
+      <div class="card" id="about">
+        <h2>About</h2>
+        <p>Short description (3–5 sentences). What’s the workshop about, and who is it for?</p>
+      </div>
+      <div class="card">
+        <h2>Updates</h2>
+        <ul>
+          <li><strong>Jan 9, 2026:</strong> Website launched.</li>
+          <li><strong>…:</strong> CFP out.</li>
+        </ul>
+      </div>
+    </section>
+
+    <section class="card" id="cfp">
+      <h2>Call for papers</h2>
+      <ul>
+        <li>Submission deadline: …</li>
+        <li>Format: …</li>
+        <li>Submission link: …</li>
+      </ul>
+    </section>
+
+    <section class="card" id="program">
+      <h2>Program</h2>
+      <p>Coming soon.</p>
+    </section>
+
+    <section class="card" id="registration">
+      <h2>Registration</h2>
+      <p>Coming soon.</p>
+    </section>
+
+    <section class="card" id="travel">
+      <h2>Practical information</h2>
+      <p>Venue, travel, accommodation, accessibility, etc.</p>
+    </section>
+
+    <section class="card" id="contact">
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:workshop@example.org">workshop@example.org</a></p>
+    </section>
+  </main>
+</body>
+</html>
